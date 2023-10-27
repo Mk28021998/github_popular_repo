@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.github-repositories-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+  font-family: Lobster;
+  font-size: 62px;
+  font-weight: 600;
+}
+.language-filter-list-const {
+  list-style: none;
+  display: flex;
+}
+.repository-list-cont {
+  display: flex;
+  list-style-type: none;
+  width: 70%;
+  flex-wrap: wrap;
+}
